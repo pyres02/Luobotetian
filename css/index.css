@@ -1,0 +1,451 @@
+/*
+* @Author: admin
+* @Date:   2018-08-29 19:16:35
+* @Last Modified by:   admin
+* @Last Modified time: 2018-09-29 15:00:50
+*/
+
+
+  .mynav,.mynav .navbar{
+    background: none;
+  }
+
+ 
+  .mynav h1{
+    color:#fff;
+    font-size:24px;
+    margin:0px;
+  }
+
+.mynav .navbar{
+    border:none;
+}
+  .mynav .collapse .nav a{
+    color:#fff;
+    font-size:18px;
+   margin-top:20px;
+  padding-bottom: 0px;
+  }
+  .mynav .collapse .nav a:hover{
+   color: #35A49C;
+   
+  }
+  .mynav .collapse .nav .active a{
+   color: #35A49C;
+   background:none;
+  } 
+
+ 
+
+  
+
+
+  /*轮播图部分*/
+ .myinner p{
+    
+    color:#404040;
+    font-size:20px;
+
+  }
+
+
+.myinner .carousel-caption{
+   margin-bottom: 50px;
+}
+
+.myinner .mybegin .carousel-caption{
+   margin-bottom: 150px;
+}
+
+
+.mycolor p{
+    color:#fff;
+}
+.mycolor i{
+  font-size: 60px;
+  margin-top: 40px;
+}
+
+/*房子信息部分*/
+
+.mynews .title{
+    margin:80px 0px 50px 0px;
+
+}
+
+.bg_color{
+    background:#ccc;
+    margin-top:70px;
+    padding:40px 0px;
+}
+
+.myrow4{
+    margin-bottom:130px;
+    padding-top:40px;
+}
+.mainp > p {
+    font: 18px/32px "Microsoft Yahei";
+    color: #404040;
+     margin: 32px 0;
+}
+
+/*因为专注部分*/
+.mytitle{
+     height:255px;
+     width: 100%;
+    text-align:center;
+    background:url('../images/img4.jpg') fixed;
+}
+.mytitle>div{
+    line-height: 255px;
+}
+
+/*酒店展示部分*/
+
+.mypic .title{
+    margin-bottom:50px;
+    margin-top:80px;
+}
+.mylist .thumbnail{
+    border:1px solid #70b9b0;  
+    padding:0px; 
+
+}
+
+.mylist .thumbnail:hover{
+    box-shadow: 2px 2px 3px #70b9b0;
+}
+.mylist img{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    transition:all 2s;
+
+}
+.mylist img:hover{
+    transform:scale(1.3);
+}
+
+.homepic{
+    overflow:hidden;
+    position:relative;
+    
+}
+
+.code {
+     height: 100%;
+     width: 100%;
+    vertical-align: middle;
+    position: absolute;
+    text-align: center;
+     display:none;
+    background:url('../images/code1.png') center no-repeat;
+    top: 0;
+    z-index:2;
+   
+   
+}
+
+
+
+
+
+.myfonts{
+    width:100%;
+    height:95px;
+    
+    overflow:hidden;
+
+}
+
+.tleft{
+    float: left;
+    margin:20px 83px 0px 15px;
+}
+.tright{
+    float: left;
+    margin-top:20px;
+}
+
+/*国内领先部分*/
+.mytitle2{
+     height:255px;
+     width: 100%;
+    text-align:center;
+    margin-top:100px;
+    background:url('../images/img2.jpg') fixed;
+}
+.mytitle2>div{
+    line-height: 255px;
+}
+
+/*我们的优势部分*/
+.myadd i{
+    font-size: 5em;
+}
+
+
+/*极致为你部分*/
+.mytitle3{
+     height:255px;
+     width: 100%;
+    text-align:center;
+    margin-top:100px;
+    background:url('../images/img5.jpg') fixed;
+}
+.mytitle3>div{
+    line-height: 255px;
+}
+
+/*合作伙伴部分*/
+
+.mylogo .thumbnail{
+    padding:30px 0px;
+}
+.mylogo .thumbnail:hover{
+    box-shadow:10px 10px 5px #ccc;
+}
+
+/*底部部分*/
+footer{
+    margin-top:40px;
+    background:#242424;
+    color:#ccc;
+}
+
+.myfooter{
+    margin-top:80px;
+}
+
+footer .mycolor{
+ color: #428bca;
+}
+
+footer ul{
+    width:230px;
+   
+    margin:20px auto;
+    zoom:1;
+
+}
+footer ul::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+footer li{
+    float: left;
+    margin-right: 26px;
+     position:relative;
+}
+
+.tao,.wechat,.ht5{
+width:50px;
+height:50px;
+border-radius: 50%;
+background:#35A49C;
+line-height:50px;
+}
+
+.current .tao{
+    transform:rotate(360deg);
+    background:#f60;
+    transition:all 1s;
+}
+
+.taotxt{
+    width:70px;
+    height:30px;
+    line-height:30px;
+    border-radius:5px;
+    position:absolute;
+    background:#000;
+   bottom:-35px;
+    z-index: 1;
+    color:#fff;
+    display:none;
+}
+
+.current .taotxt{
+    display:block;
+}
+
+.wetxt{
+    position:absolute;
+    bottom:-140px;
+    left:-30px;
+    padding:0px 10px;
+    background:#fff;
+    border-radius:5px;
+    z-index:1;
+    display:none;
+}
+
+.icon::after{
+    content: '';
+    border-top:10px solid #fff;
+    border-right:10px solid transparent;
+    border-left:10px solid transparent;
+    position:absolute;    
+    transform:rotate(180deg);  
+    left:42%;
+    top:-10px;
+
+}
+
+.current .wechat{
+    transform:rotate(360deg);
+    background:#00CF0D;
+    transition:all 1s;
+}
+
+.current .wetxt{
+    display:block;
+}
+
+.h5txt{
+    width:70px;
+    height:30px;
+    line-height:30px;
+    border-radius:5px;
+    position:absolute;
+    background:#000;
+   bottom:-35px;
+    z-index: 1;
+    color:#fff;
+     display:none;
+}
+
+.current .h5txt{
+    display:block;
+}
+
+.current .ht5{
+    transform:rotate(360deg);
+    background:#D9534F;
+    transition:all 1s;
+}
+
+
+
+ @media (max-width:767px ) { 
+   .mynav .navbar{
+    margin-bottom: 0px;
+    text-align: center;
+    
+   }
+  .mynews img,.mytitle img,.mypic img,.mytitle2 img,.mytitle3 img{
+    width:100%;
+    height:100%;
+  }
+
+  .olist,.myulist{
+    display: none;
+
+  }
+
+  }
+
+
+ @media (min-width:768px ) { 
+   
+/* 右边栏部分 */
+  .olist{
+    position: fixed;
+    top: 50%;
+    right: 10px;
+  }
+
+  .olist li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+
+  .olist li.current{
+    background: skyblue;
+  }
+
+
+.myulist{
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  width: 100px;
+  height: 100%;
+  background-color: #333;
+  opacity: 0;
+}
+.myulist.current{
+  opacity: 1;
+}
+.ulist{
+  width: 60px;
+
+  margin: 100px auto;
+
+}
+.ulist li{
+ 
+ text-align: center;
+ margin-bottom: 20px;
+ color: #fff;
+
+}
+.myulist .ulist li i{
+  width: 40px;
+  height: 40px;
+   border-radius: 50%;
+  background-color: #aaa;
+  line-height: 40px;
+  text-align: center;
+  color: #000;
+}
+.myulist .ulist .current i{
+  background-color: #79cdc0;
+}
+
+.myulist .ulist li i:hover{
+  background-color: #79cdc0;
+}
+
+
+  }
+
+
+
+  @media (max-width:1024px ) { 
+    .myinner .item{
+        height:350px;
+        font-size:14px;
+    }
+     .myinner .item>img{
+        height:350px;
+       
+    }
+   .myinner .carousel-caption{
+    margin-bottom:10px;
+   }
+
+
+  }
+
+
+  
+/*返回首页 */
+
+.myretop{
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  background: skyblue;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  display: none;
+}

@@ -1,0 +1,51 @@
+/*
+* @Author: admin
+* @Date:   2018-09-27 19:23:03
+* @Last Modified by:   admin
+* @Last Modified time: 2018-09-29 15:09:05
+*/
+
+.mynav,.mynav .navbar{
+    background:none;
+  }
+
+.mytitle3{
+     height: 700px;
+     width: 100%;
+    text-align:center;
+   margin-top: 0px;
+    background:url('../images/img5.jpg') fixed;
+}
+.mytitle3>div{
+    line-height: 700px;
+}
+
+
+/* 加入我们 */
+
+.myjoin .thumbnail{
+	border: none;
+
+}
+.myjoin li{
+  list-style:disc;
+margin-left: 36px;
+}
+footer{
+	margin-top: 0px;
+}
+.myfooter ul{
+	width: 242px;
+}
+
+.myfooter ul li:nth-of-type(3){
+	margin-right: 0px;
+}
+
+
+/* 地图部分 */
+.mymap{
+	height: 500px;
+	
+}
+
