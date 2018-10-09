@@ -334,6 +334,9 @@ line-height:50px;
     text-align: center;
     
    }
+    .mynav,.mynav .navbar{
+    background: #000;
+  }
   .mynews img,.mytitle img,.mypic img,.mytitle2 img,.mytitle3 img{
     width:100%;
     height:100%;
